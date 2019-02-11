@@ -32,5 +32,19 @@
 * run python3 manage.py makemigrations
 * run python3 manage.py migrate
 * run python3 manage.py runserver **you need to leave this terminal open for the server to run**
-* go to http://localhost:8000/api/v1/users/ to see the get and post users endpoint
+* go to [here](http://localhost:8000/api/v1/users) to see the get and post users endpoint
 * you can add users to your database from this page
+ 
+ # Add your first user
+ * go [here](http://localhost:8000/api/v1/users) enter this into the "Content" box:
+```
+{
+"first_name" : "SomeFirstNameHere",
+"last_name" : "SomeLastNameHere",
+"age" : 18,
+"phone_number": 6186942222,
+"address" : "SomeAddressHere"
+}
+```
+* Press the blue POST button
+* Go to [here](http://localhost:8000/api/v1/users/1) to see the information on your first user in your database
