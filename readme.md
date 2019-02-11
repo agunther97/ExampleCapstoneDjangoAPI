@@ -46,5 +46,5 @@
 "address" : "SomeAddressHere"
 }
 ```
-* Press the blue POST button
-* Go [here](http://localhost:8000/api/v1/users/1) to see the information on your first user in your database
+* press the blue POST button
+* go [here](http://localhost:8000/api/v1/users/1) to see the information on your first user in your database
