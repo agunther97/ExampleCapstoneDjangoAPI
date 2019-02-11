@@ -1,4 +1,5 @@
-# How to run: (this is assuming a current ubuntu install, windows may be tricker but google around)
+# How to run:
+**This is assuming a current ubuntu install, windows may be tricker but google around**
 * download the repository
 * pip install virtualenv
 * cd into the repository
